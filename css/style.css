@@ -1,0 +1,426 @@
+.body{
+    margin: 0px;
+}
+.webstudio{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    list-style-type: none;
+    color: #212121;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.web{
+    color: #2196F3;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.web2{
+    color: #f2f8f7;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.agencja{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+    .agencja:hover, 
+    .portfolio:hover,
+    .kontakt:hover,
+    .mail:hover,
+    .tel:hover{
+        color: #2196F3;
+    }
+.list{
+    list-style-type: none;
+}
+.portfolio{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+.kontakt{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+.mail{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
+.tel{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
+.flex-box-header-kontakt{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background-color: #F5F4FA;
+    display: inline-block;
+    padding: 6px 22px;
+    color: #212121;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    border: none;
+}
+.btn:hover{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.project-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    text-decoration: none;
+    margin-left: 24px;
+}
+.project-title:hover,
+.site-type:hover {
+    text-decoration: underline;
+    text-decoration-color: #2196F3;
+}
+.site-type{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-decoration: none;
+    margin-left: 24px;
+}
+.address{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.tel-footer{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.mail-footer{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+.button{
+    background-color: #2F303A;
+    min-height: 600px;
+}
+.photo-efect{
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url("../images/img.bmp.jpg");
+}
+.caption{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 200px;
+    margin: 0px auto;
+}
+.btn-main-page{
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: none;
+    padding: 0%;
+    margin-left: 500px;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+}
+.btn-main-page:hover{
+    cursor: pointer;
+}
+
+.lorem-ipsum-style-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.lorem-ipsum-style-text-Opis{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    list-style-type: none;
+}
+.style-tytuł{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.flex-box-production-photo{
+    margin: 0px;
+    padding-inline-start: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.style-name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.style-department{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.flex-box-header-nav{
+    list-style-type: none;
+    display: flex;
+}
+.menu-nav{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.flex-box-lorem-ipsum{
+    height: 101px;
+    display: flex;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    justify-content: space-between;
+    margin-top: 94px;
+}
+
+.flex-box-production{
+    height: 386px;
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.tlo-nasz-zespol{
+    background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.flex-box-sztat-tytul{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.flex-box-sztat-photo{
+    padding-inline-start: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.card-photo1{
+    background-color: #FFFFFF;
+    width: 270px;
+    height: 428px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.fb-figure{
+    margin: 0px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 32px;
+    margin-left: 32px;
+    margin-bottom: 30px;
+    padding: 0%;
+}
+.social-list{
+    display: flex;
+    align-items: center;
+}
+.social-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+.social-link:hover,
+.social-link:focus{
+    fill: rgba(255, 255, 255, 1);
+    background-color: #2196F3;
+}
+.social-icon{
+    width: 20px;
+    height: 20px;
+    fill: rgba(117, 117, 117);
+}
+.social-icon:hover,
+.social-icon:focus{
+    fill: rgba(255, 255, 255, 1);
+}
+.footer{
+    background-color: #2F303A;
+    height: 252px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+.flex-box-footer-webstudio{
+    width: 145px;
+    height: 31px;
+}
+.flex-box-adres{
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+.flex-box-adres-info{
+    margin-bottom: 9px;
+}
+.flex-box-portfolio{
+    margin-top: 94px;
+    margin-bottom: 64px;
+}
+.flex-box-filter{
+    width: 572px;
+    height: 54px;
+    margin: 0px auto 34px;
+    display: flex;
+    justify-content: space-between;
+}
+.flex-box-card-set{
+    margin: 0px;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container-bg{
+    width: 370px;
+    height: 404px;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 30px;
+}
+.flex-box-card{
+    width: 370px;
+    height: 404px;
+    margin: 0px;
+}
+.container{
+    margin: 0px auto;
+    width: 1200px;
+}
+.flex-box-header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.border-line{
+    border-bottom: 1px solid #ECECEC;
+}
